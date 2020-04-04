@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>FoodCourt</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo" id="navlogo">FoodCourt</a>
+          <a href="#!" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#!">Chef Special</a></li>
+            <li><a href="#!">Appetizers</a></li>
+            <li><a href="#!">Soups</a></li>
+            <li><a href="#!">Salad</a></li>
+            <li><a href="#!">Desserts</a></li>
+            <li><a href="#!">Burger</a></li>
+            <li><i class="material-icons" id="carticon">add_shopping_cart</i></li> 
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-nav">
+        <li><a href="#!">Chef Special</a></li>
+        <li><a href="#!">Appetizers</a></li>
+        <li><a href="#!">Soups</a></li>
+        <li><a href="#!">Salad</a></li>
+        <li><a href="#!">Desserts</a></li>
+        <li><a href="#!">Burger</a></li>
+        <li><i class="material-icons" id="cart-icon">add_shopping_cart</i></li>
+      </ul>
+
+
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img class="foodimg" src="./assets/alex-munsell-Yr4n8O_3UPc-unsplash.jpg"> 
+        <div class="caption center-align">
+          <h3>Skillet Chocolate Chip Cookie</h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+      </li>
+      <li>
+        <img class="foodimg" src="./assets/lidye-1Shk_PkNkNw-unsplash.jpg"> 
+        <div class="caption left-align">
+          <h3>Crispy Cheddar Bites</h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+      </li>
+      <li>
+        <img class="foodimg" src="./assets/lily-banse--YHSwy6uqvk-unsplash.jpg">
+        <div class="caption right-align">
+          <h3>White Spinach Queso</h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+      </li>
+      <li>
+        <img class="foodimg" src="./assets/rachel-park-hrlvr2ZlUNk-unsplash.jpg">
+        <div class="caption center-align">
+          <h3>Sweet & Smoky Burger</h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="order">
+  <h4>Order A Meal</h4>
+</div>
+
+<div class="menulist">
+
+  <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="./assets/food1.jpeg">
+    </div>
+    <div class="card-content" id="id-card">
+      <span class="card-title activator grey-text text-darken-4">White Spinach Queso</span>
+      <p id="price">$4.50</p>
+
+  <p><a href="#"><i class="material-icons" id="cart-icon">add_shopping_cart</i></a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">White Spinach Queso<i class="material-icons right">close</i></span>
+      <p>White queso & chopped spinach topped with shredded Monterey Jack cheese,
+         house-made pico de gallo, fresh guacamole, queso fresco & chopped cilantro. 
+        Served with warm tostada chips & fresh salsa.</p>
+    </div>
+  </div>
+
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="./assets/food2.jpeg">
+      </div>
+      <div class="card-content" id="id-card">
+        <span class="card-title activator grey-text text-darken-4">Crispy Cheddar Bites</span>
+        <p id="price">$7.25
+        </p>
+  
+    <p><a href="#"><i class="material-icons" id="cart-icon">add_shopping_cart</i></a></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Crispy Cheddar Bites<i class="material-icons right">close</i></span>
+        <p>Lightly battered & golden fried white & yellow Wisconsin cheese curds 
+          topped with a sprinkle of Cajun spice and chopped cilantro. 
+          Served with house-made ancho-chile ranch.</p>
+      </div>
+  </div>
+
+
+
+  <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="./assets/food3.jpeg">
+    </div>
+    <div class="card-content" id="id-card">
+      <span class="card-title activator grey-text text-darken-4">Sweet & Smoky Burger</span>
+      <p id="price">$8.75
+      </p>
+
+  <p><a href="#"><i class="material-icons" id="cart-icon">add_shopping_cart</i></a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Sweet & Smoky Burger<i class="material-icons right">close</i></span>
+      <p>Topped with melted pepper Jack cheese, applewood smoked bacon,
+        spiced panko onion rings, fresh leaf lettuce, tomato,mango-infused 
+        BBQ sauce & Chili's Signature sauce. Served with a side of mango-infused BBQ sauce.
+
+      </p>
+    </div>
+</div>
+
+<div class="card">
+  <div class="card-image waves-effect waves-block waves-light">
+    <img class="activator" src="./assets/food4.jpeg">
+  </div>
+  <div class="card-content" id="id-card">
+    <span class="card-title activator grey-text text-darken-4">SHouse Salad</span>
+    <p id="price">$3.50
+    </p>
+
+<p><a href="#"><i class="material-icons" id="cart-icon">add_shopping_cart</i></a></p>
+  </div>
+  <div class="card-reveal">
+    <span class="card-title grey-text text-darken-4">House Salad<i class="material-icons right">close</i></span>
+    <p>Freshly diced tomatoes, red onion, shredded carrots, cucumbers, 
+      3-cheese blend & garlic croutons. 
+      Served with your choice of dressing.
+    </p>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-image waves-effect waves-block waves-light">
+    <img class="activator" src="./assets/food5.jpeg">
+  </div>
+  <div class="card-content" id="id-card">
+    <span class="card-title activator grey-text text-darken-4">Classic Bacon Burger</span>
+    <p id="price">$7.50
+    </p>
+
+<p><a href="#"><i class="material-icons" id="cart-icon">add_shopping_cart</i></a></p>
+  </div>
+  <div class="card-reveal">
+    <span class="card-title grey-text text-darken-4">Classic Bacon Burger<i class="material-icons right">close</i></span>
+    <p>Topped with applewood smoked bacon, melted sharp cheddar cheese, 
+      house-made garlic dill pickles, fresh leaf lettuce, tomato, sliced red onions 
+      & Chili's Signature sauce.
+    </p>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-image waves-effect waves-block waves-light">
+    <img class="activator" src="./assets/food6.jpeg">
+  </div>
+  <div class="card-content" id="id-card">
+    <span class="card-title activator grey-text text-darken-4">Chicken Enchilada Soup</span>
+    <p id="price">$5.00
+    </p>
+
+<p><a href="#"><i class="material-icons" id="cart-icon">add_shopping_cart</i></a></p>
+  </div>
+  <div class="card-reveal">
+    <span class="card-title grey-text text-darken-4">Chicken Enchilada Soup<i class="material-icons right">close</i></span>
+    <p>Topped with crispy tortilla strips & 3-cheese blend.
+    </p>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-image waves-effect waves-block waves-light">
+    <img class="activator" src="./assets/food7.jpeg">
+  </div>
+  <div class="card-content" id="id-card">
+    <span class="card-title activator grey-text text-darken-4">Cheesecake</span>
+    <p id="price">$3.00
+    </p>
+
+<p><a href="#"><i class="material-icons" id="cart-icon">add_shopping_cart</i></a></p>
+  </div>
+  <div class="card-reveal">
+    <span class="card-title grey-text text-darken-4">Cheesecake<i class="material-icons right">close</i></span>
+    <p>A rich New York-style cheesecake with graham cracker crust. 
+      Served over strawberry puree.
+    </p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-image waves-effect waves-block waves-light">
+    <img class="activator" src="./assets/food11.jpeg">
+  </div>
+  <div class="card-content" id="id-card">
+    <span class="card-title activator grey-text text-darken-4">Skillet Chocolate Chip Cookie</span>
+    <p id="price">$5.00
+    </p>
+
+<p><a href="#"><i class="material-icons" id="cart-icon">add_shopping_cart</i></a></p>
+  </div>
+  <div class="card-reveal">
+    <span class="card-title grey-text text-darken-4">Skillet Chocolate Chip Cookie<i class="material-icons right">close</i></span>
+    <p>A rich New York-style cheesecake with graham cracker crust. 
+      Oven-baked chocolate chip cookie topped with vanilla ice cream & drizzled with hot fudge.
+      Served over strawberry puree.
+    </p>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-image waves-effect waves-block waves-light">
+    <img class="activator" src="./assets/food10.jpeg">
+  </div>
+  <div class="card-content" id="id-card">
+    <span class="card-title activator grey-text text-darken-4">Skillet Toffee Fudge Brownie</span>
+    <p id="price">$4.50
+    </p>
+
+<p><a href="#"><i class="material-icons" id="cart-icon">add_shopping_cart</i></a></p>
+  </div>
+  <div class="card-reveal">
+    <span class="card-title grey-text text-darken-4">Skillet Toffee Fudge Brownie<i class="material-icons right">close</i></span>
+    <p>A rich New York-style cheesecake with graham cracker crust. 
+      Oven-baked chocolate chip cookie topped with vanilla ice cream & drizzled with hot fudge.
+      Served over strawberry puree.Oven-baked toffee brownie topped with vanilla ice cream, 
+      drizzled with caramel sauce & topped with toffee pieces.
+       († This dish contains nuts)
+    </p>
+  </div>
+</div>
+</div>
+
+        <footer class="page-footer">
+          <div class="footer-copyright" id="footer-copy">
+            <div class="container" id="footer-link">
+              Built at Nesa By Makers  © 2020 Copyright 
+            <a class="grey-text text-lighten-4 right" href="#!"><i class="material-icons"></i> More Links</a>
+            </div>
+          </div>
+        </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
